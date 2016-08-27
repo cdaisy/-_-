@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<% session.setAttribute("username", username)%>
+<% String username="admin"; 
+session.setAttribute("username", username);%>
 </body>
 </html>
